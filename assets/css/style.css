@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background:  linear-gradient(0deg, rgba(219, 4, 172, 0.2), rgba(219, 4, 172, 0.2)), #FFFFFF;;
+}
+h1{
+    font-family: Alice;
+
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 3.33vw;
+    text-align: center;
+
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+
+    color: #BC1664;
+
+    text-shadow: 1px 0 1px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 1px #000;
+}
+p{
+    font-family: Alice;
+}
+a{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.header{
+
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0.88vw 2.44vw 0.9vw 3.8vw;
+
+    background: no-repeat center url("../img/background.png");
+    background-size: 100% 100%;
+}
+.main-wrapper-i{
+    width: 35%;
+    mix-blend-mode: darken;
+
+    border: 1px solid #FBFBFB;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info_text{
+    width: 38.17vw;
+
+    padding: 0.67vw 3.8vw 1.77vw 3.8vw;
+    background: #FFFFFF;
+
+    margin-top: 2.86vw;
+
+    font-size: 1.96vw;
+
+    color: #BC1664;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.08vw;
+    margin-bottom: 5.67vw;
+}
+.footer_info{
+    display: flex;
+    flex-direction: column;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.96vw;
+
+    margin-left: 5.58vw;
+
+    color: #BC1664;
+}
+.footer_soch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 20vw;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.96vw;
+
+    margin-left: 45vw;
+
+    color: #BC1664;
+}
+.footer_soch_img{
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 0.78vw;
+}
+.footer_img1{
+    width: 6vw;
+}
+.footer_img2{
+    width: 5vw;
+}
+.footer_img3{
+    width: 5vw;
+}
+
+@media (min-width: 361px) and (max-width: 768px) {
+    h1{
+        font-size: 7.33vw;
+        text-align: center;
+
+        margin-top: 8vw;
+        margin-bottom: 5vw;
+    }
+    .main-wrapper{
+        padding: 0.88vw 2.44vw 0.9vw 0;
+    }
+    .main-wrapper-i{
+        width: 45%;
+        mix-blend-mode: darken;
+
+        border: 1px solid #FBFBFB;
+    }
+    .info_text{
+        width: 45.17vw;
+
+        padding: 0.67vw 3.8vw 1.77vw 3.8vw;
+        background: #FFFFFF;
+
+        margin-top: 2.86vw;
+
+        font-size: 2.78vw;
+
+    }
+    .footer_info{
+        font-size: 2.96vw;
+
+        margin-left: 5.58vw;
+    }
+    .footer_soch{
+
+        width: 28vw;
+
+        font-size: 2.96vw;
+
+        margin-left: 23vw;
+
+    }
+
+    .footer_img1{
+        width: 8.5vw;
+    }
+    .footer_img2{
+        width: 7.5vw;
+    }
+    .footer_img3{
+        width: 7.5vw;
+    }
+
+}
+@media (max-width:  361px) {
+    h1{
+        font-size: 10.33vw;
+        text-align: center;
+
+        margin-top: 8vw;
+        margin-bottom: 5vw;
+    }
+    .main-wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding: 1vw 0vw 1vw 0;
+    }
+    .main-wrapper-i{
+        width: 75%;
+        mix-blend-mode: darken;
+
+        border: 1px solid #FBFBFB;
+    }
+    .info_text{
+        width: 90vw;
+
+        padding: 0.67vw 3.8vw 1.77vw 3.8vw;
+        background: #FFFFFF;
+
+        margin-top: 2.86vw;
+
+        font-size: 4.5vw;
+    }
+    .footer_info{
+
+        width: 70vw;
+
+        font-size: 4.3vw;
+
+        margin-left: 2vw;
+
+    }
+    .footer_soch{
+
+        width: 45vw;
+
+        font-size: 4.3vw;
+
+        margin-left: 5vw;
+
+        margin-right: 2vw;
+    }
+
+    .footer_soch_img{
+
+        margin-top: 0.78vw;
+    }
+
+    .footer_img1{
+        width: 10.5vw;
+    }
+    .footer_img2{
+        width: 9.5vw;
+    }
+    .footer_img3{
+        width: 9.5vw;
+    }
+
+}
